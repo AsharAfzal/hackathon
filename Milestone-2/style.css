@@ -1,0 +1,131 @@
+/* General body styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+a {
+    color: olive;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Main resume container */
+.resume-container {
+    max-width: 900px;
+    margin: 30px auto;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid olive; /* Thick border */
+}
+
+/* Left section */
+.left-section {
+    width: 30%;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 2px solid olive; /* Add border to right side */
+}
+
+.left-section img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid rgb(112, 142, 4); /* Add border around image */
+}
+
+.left-section h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    
+}
+
+.left-section p {
+    text-align: justify;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    hyphens: auto;
+}
+
+/* Middle section - vertical line */
+.middle-section {
+    width: 5%;
+    background-color: rgb(112, 142, 4);
+}
+
+/* Right section */
+.right-section {
+    width: 65%;
+    padding: 30px;
+    box-sizing: border-box;
+    border-left: 3px solid olive; /* Add border to the left */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Apply box shadow to the right section */
+}
+
+.right-section h1 {
+    color: rgb(112, 142, 4) ;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid olive; /* Add underline effect */
+    padding-bottom: 10px;
+}
+
+.right-section h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;    
+}
+
+.right-section p {
+    margin-bottom: 10px;
+}
+
+.right-section section {
+    margin-bottom: 30px;
+    padding: 10px;}
+
+/* Skills section text alignment */
+.skills {
+    text-align: justify;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15 black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: rgb(112, 142, 4);
+}
+
