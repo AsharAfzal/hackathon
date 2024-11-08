@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="resume-form">
+        <div class="Main">
+            <section id="Main">
+                <h1>Dynamic Resume Builder</h1>
+            </section>
+            <div class="Personal-Information">
+                <fieldset>
+                    <section id="Personal-Information">
+                        <h3>Personal Information</h3>
+                        <ul>
+                            <li>
+                                <p>
+                                <label for="Name">Name:</label>
+                                <input type="text" id="name" placeholder="Enter your name" required>
+                                </p>
+                            </li>
+                            <li>
+                                <label for="Email">Email:</label>
+                                <input type="email" id="email" placeholder="Enter your email" required>
+                            </li>
+                            <li>
+                                <label for="Phone">Phone:</label>
+                                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                            </li>
+                        </ul>
+                    </section>
+                </fieldset>
+            </div>
+            <div class="Education">
+                <fieldset>
+                    <h3>Education</h3>
+                    <ul>
+                        <li>
+                            <label for="education"></label>
+                            <textarea name="Education" id="education" placeholder="Enter your education" rows="4" required></textarea>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div class="Experience">
+                <fieldset>
+                    <h3>Experience</h3>
+                    <ul>
+                        <li>
+                            <label for="experience"></label>
+                            <textarea name="Experience" id="experience" placeholder="Enter your experience" rows="4" required></textarea>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div class="Skills">
+                <fieldset>
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>
+                            <label for="skills"></label>
+                            <textarea name="Skills" id="skills" placeholder="Enter your skills" rows="4" required></textarea>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div class="button">
+                <button type="submit" id="Generate"><b>Generate Resume</b></button>
+            </div>
+        </div>
+        
+    </form>
+    <!-- Add this div to display the generated resume
+    <div id="resume-display"></div>
+    <script src="script.js"></script> -->
+
+    <!-- Display Generated Resume -->
+    <div id="resume-display"></div>
+</div>
+
+<script src="script.js" defer></script> <!-- Ensure defer is set -->
+</body>
+</html>
