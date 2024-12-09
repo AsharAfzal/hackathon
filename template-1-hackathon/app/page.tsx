@@ -80,6 +80,73 @@ const MainSection = () => {
           </div>
         </div>
       </section>
+
+      {/* Top Selling Section */}
+      <section className="py-10">
+        <h2 className="text-2xl font-semibold mb-6 text-center">Top Selling</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="bg-white p-4 rounded shadow">
+            <Image src="/orange-tshirt.png" alt="Orange T-shirt" width={150} height={150} />
+            <p className="mt-2 text-gray-700">Orange T-shirt</p>
+          </div>
+          <div className="bg-white p-4 rounded shadow">
+            <Image src="/shorts.png" alt="Shorts" width={150} height={150} />
+            <p className="mt-2 text-gray-700">Denim Shorts</p>
+          </div>
+          <div className="bg-white p-4 rounded shadow">
+            <Image src="/black-jeans.png" alt="Black Jeans" width={150} height={150} />
+            <p className="mt-2 text-gray-700">Black Jeans</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Browse by Dress Style Section */}
+      <section className="py-10">
+        <h2 className="text-2xl font-semibold mb-6 text-center">Browse by Dress Style</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="bg-white p-4 rounded shadow">
+            <Image src="/casual.png" alt="Casual" width={150} height={150} />
+            <p className="mt-2 text-gray-700">Casual</p>
+          </div>
+          <div className="bg-white p-4 rounded shadow">
+            <Image src="/formal.png" alt="Formal" width={150} height={150} />
+            <p className="mt-2 text-gray-700">Formal</p>
+          </div>
+          <div className="bg-white p-4 rounded shadow">
+            <Image src="/party.png" alt="Party" width={150} height={150} />
+            <p className="mt-2 text-gray-700">Party</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Happy Customers Section */}
+      <section className="py-10">
+        <h2 className="text-2xl font-semibold mb-6 text-center">Our Happy Customers</h2>
+        <div className="space-y-6">
+          <div className="bg-white p-4 rounded shadow">
+            <p className="text-gray-700">"Great quality and fast shipping!" - Customer A</p>
+          </div>
+          <div className="bg-white p-4 rounded shadow">
+            <p className="text-gray-700">"Love the new collection!" - Customer B</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Stay Up to Date About Our Latest Offers Section */}
+      <section className="py-10 bg-gray-100">
+        <div className="container mx-auto text-center">
+          <h2 className="text-2xl font-semibold mb-6">Stay Up to Date About Our Latest Offers</h2>
+          <p className="text-gray-700 mb-4">Subscribe to our newsletter to get the latest updates and offers directly to your inbox.</p>
+          <form className="flex flex-col md:flex-row justify-center items-center">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="w-full md:w-auto px-4 py-2 border border-gray-300 rounded-full mb-4 md:mb-0 md:mr-4"
+            />
+            <button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800">Subscribe</button>
+          </form>
+        </div>
+      </section>
     </main>
   );
 };
